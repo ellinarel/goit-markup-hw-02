@@ -3,12 +3,13 @@
     --tittle-text-color:#212121;
     --accent-color:#2196F3;
 }
-header{
-    background-color: #ffffff;
-}
+
 body{
-background-color: #F5F5F5;
+background-color: #ffffff;
 font-family: "Roboto",sans-serif;
+}
+header {
+    background-color: #ffffff;
 }
 .logo-word{
    font-family: 'Raleway',sans-serif;
@@ -28,48 +29,29 @@ font-family: "Roboto",sans-serif;
 }
 
 
-.navlinks{
+.site-nav{
     list-style-type: none;
 }
-.stlink{
-    color:var(--accent-color);
-    font-weight: 500;
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.link {
+    color:var(--tittle-text-color);
+        font-weight: 500;
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
         text-decoration: none;
 }
-.stlink:hover,
-.stlink:active{
+
+.link:hover,
+.link:active{
 color: var(--accent-color);
 }
 
-.prlink{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: var(--tittle-text-color);
-    text-decoration: none;
-}
-.prlink:hover,
-.prlink:focus{
-    color: var(--accent-color);
-}
-.conlink{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: var(--tittle-text-color);
-    text-decoration: none;
 
-}
-.conlink:hover,
-.conlink:focus{
-    color: var(--accent-color);
-}
-.navvlinks{
+.site-nav{
     list-style-type: none;
 
 }
@@ -98,5 +80,29 @@ color: var(--accent-color);
 .tel:focus {
     color: var(--accent-color);
     }
-
+.hero{
+    background-color: #2F303A;
+    
+}
+.herotittle{
+    font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        color: #ffffff;
+        text-align: center;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            
+}
+.herobutton{
+        background: var(--accent-color);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        color: #FFFFFF;
+}
+.herobutton:hover,
+.herobutton:focus
+{
+   background-color: #188CE8;
+}
 
