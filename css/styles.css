@@ -51,11 +51,11 @@ color: var(--accent-color);
 }
 
 
-.site-nav{
+.site-nav2{
     list-style-type: none;
 
 }
-.mail{
+.link2{
         font-weight: 500;
         font-size: 14px;
         line-height: 16px;
@@ -63,23 +63,11 @@ color: var(--accent-color);
         color: var(--primary-text-color);
         text-decoration: none;
 }
-.tel{
-    font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
-        color: var(--primary-text-color);
-        text-decoration: none;
+.link2:hover,
+.link2:focus{
+    color: var(--accent-color);
+}
 
-}
-.mail:hover,
-.mail:focus{
-    color: var(--accent-color);
-}
-.tel:hover,
-.tel:focus {
-    color: var(--accent-color);
-    }
 .hero{
     background-color: #2F303A;
     
@@ -103,6 +91,7 @@ color: var(--accent-color);
 .herobutton:hover,
 .herobutton:focus
 {
+    
    background-color: #188CE8;
 }
 
