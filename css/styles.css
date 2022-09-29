@@ -94,8 +94,8 @@ color: var(--accent-color);
 .mail:focus{
     color: var(--accent-color);
 }
-.tell:hover,
-.tell:focus {
+.tel:hover,
+.tel:focus {
     color: var(--accent-color);
     }
 
