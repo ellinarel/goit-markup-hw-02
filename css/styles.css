@@ -72,7 +72,7 @@ color: var(--accent-color);
     background-color: #2F303A;
     
 }
-.herotittle{
+.hero .herotittle{
     font-weight: 900;
         font-size: 44px;
         line-height: 60px;
@@ -82,16 +82,25 @@ color: var(--accent-color);
             text-transform: uppercase;
             
 }
-.herobutton{
+.hero .herobutton{
         background: var(--accent-color);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
         color: #FFFFFF;
 }
-.herobutton:hover,
-.herobutton:focus
-{
-    
-   background-color: #188CE8;
+
+
+.hero .herobutton:hover{
+ background: #188CE8;
+}
+.hero .herobutton:focus{
+    background: #188CE8;
 }
 
