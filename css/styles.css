@@ -5,7 +5,7 @@
 }
 
 body{
-background-color: #ffffff;
+background-color: #F5F5F5;
 font-family: "Roboto",sans-serif;
 }
 header {
@@ -72,7 +72,7 @@ color: var(--accent-color);
     background-color: #2F303A;
     
 }
-.hero .herotittle{
+.hero .herotitle{
     font-weight: 900;
         font-size: 44px;
         line-height: 60px;
@@ -80,6 +80,7 @@ color: var(--accent-color);
         text-align: center;
             letter-spacing: 0.06em;
             text-transform: uppercase;
+            
             
 }
 .hero .herobutton{
@@ -94,6 +95,7 @@ color: var(--accent-color);
         text-align: center;
         letter-spacing: 0.06em;
         color: #FFFFFF;
+        cursor:pointer;
 }
 
 
@@ -103,4 +105,131 @@ color: var(--accent-color);
 .hero .herobutton:focus{
     background: #188CE8;
 }
+.benefits{
+    background-color: #F5F5F5;
+}
+.notitle{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 
+.list1{
+list-style-type: none;
+}
+
+.list1 .list2{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--tittle-text-color);
+   
+}
+.list1 .list3{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color);
+}
+ 
+ .todolist{
+    background-color: #F5F5F5;
+ }
+ .secondarytitle{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.03em;
+        color: var(--tittle-text-color);
+ }
+
+ .worklist{
+    list-style-type: none;
+ }
+ 
+ .worklist .img{
+    width: 370px;
+    height: 294px;
+ }
+.team{
+    background: #F5F4FA;
+}
+.teamtitle{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.03em;
+}
+.teamlist{
+    list-style-type: none;
+}
+.teamname{
+font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+.job{
+font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+.card{
+    background: #FFFFFF
+}
+
+footer{
+    background-color: #2F303A;
+}
+.logo2{
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+}
+.logopart1{
+    color: #2196F3;
+}
+.logopart2{
+    color: #FFFFFF;
+}
+.addresslist{
+    list-style-type: none;
+}
+.addresslink1{
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        text-decoration: none;
+}
+ 
+.addresslink2{
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+         color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+}
+
+.addresslink2:hover,
+.addresslink2:active{
+    color: var(--accent-color);
+}
